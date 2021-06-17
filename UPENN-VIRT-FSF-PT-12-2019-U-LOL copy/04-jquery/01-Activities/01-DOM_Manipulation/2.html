@@ -6,7 +6,7 @@
 </head>
   <body>
 
-    <div id="empty-div"></div>
+    <a id="empty-div"></a>
 
     <!-- We now create a new JavaScript script. -->
     <script type="text/javascript">
@@ -15,7 +15,18 @@
       var targetDiv = document.getElementById("empty-div");
 
       // We then use the JavaScript method ".textContent" to change the content to "Hello friends!"
+
+      //div would not take href or targets had to be changed to an "a" tag.
+      targetDiv.href = "https://www.w3schools.com";
+      targetDiv.target = "_blank";
+
+      
       targetDiv.textContent = "Hello friends!";
+
+      targetDiv.style.color = "red";
+      targetDiv.style.backgroundColor = "green";
+      targetDiv.style.fontSize = "100px";
+      
 
     </script>
 
