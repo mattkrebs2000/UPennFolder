@@ -15,9 +15,28 @@
         <ul id="image_rollovers">
             <li><img src="images/release.jpg" alt="" id="images/deer.jpg"></li>
             <li><img src="images/hero.jpg" alt="" id="images/bison.jpg"></li>
+            <li><img src="images/bison.jpg" alt="" id="images/hero.jpg"></li>
         </ul>
     </main>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script>
+
+function Car() {}
+car1 = new Car();
+car2 = new Car();
+
+Car.prototype.color = 'original color';
+car1.color = "black"
+console.log(car1.color); 
+console.log(car2.color); 
+console.log(Car)  // 'original color'
+
+
+    </script>
+
+
+
+    
     <script src="rollover.js"></script>
 </body>
 </html>
