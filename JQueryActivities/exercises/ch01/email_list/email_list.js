@@ -2,6 +2,20 @@ const $ = selector => document.querySelector(selector);
 
 const joinList = evt => {
     // get user entries from text boxes
+    
+
+    //Check to see what is available
+    console.log("test1" , $("#email_1"))
+    console.log("test2" , $("#email_1").value)
+
+    console.log("test3" , $("#email_2"))
+    console.log("test4" , $("#email_2").value)
+
+    console.log("test5" , $("#first_name"))
+    console.log("test6" , $("#first_name").value)
+
+
+//Simplify by creating variables
     const email1 = $("#email_1").value;
     const email2 = $("#email_2").value;
     const firstName = $("#first_name").value;
