@@ -11,6 +11,8 @@
         <h1>The Miles Per Gallon Calculator</h1>
         <script>
             "use strict";
+
+            
             
             // get miles driven from user
             const miles = parseInt(prompt("Enter miles driven"));
@@ -22,6 +24,9 @@
             const mpg = parseFloat(miles/gallons);
 
             // display results
+
+            //try to place const html before miles - note the error. 
+
             const html = `<p><label>Miles: </label>${miles}</p>
                 <p><label>Gallons: </label>${gallons}</p>
                 <p><label>MPG: </label>${mpg.toFixed(2)}</p>`;
